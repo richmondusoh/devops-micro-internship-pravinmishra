@@ -33,9 +33,24 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+I will categorize the assignment into 5 angles.
 
----
+1. Personal growth / mindset angle
+  I believe that most people are capable of far more than they achieve, but comfort and fear of uncertainty keep them stuck. Many people around me, Lagos Nigeria specifically think success is mostly about luck, fervent prayers but I believe it’s more about consistency, focused learning, and discipline over time.
+
+2. Career / success angle
+  I believe that formal education alone doesn’t guarantee success. Many people around me think a degree is enough, but I believe skills, adaptability, and continuous learning matter more in the long run.
+  Why this works: it’s respectful but forward-thinking.
+
+3. Money / wealth mindset 
+  I believe poverty is often first a mindset problem before it becomes a financial one. Many people disagree and think it’s only about circumstances for example being born into a rich or poor homes, but I believe how people think about money, opportunity, and growth plays a major role.
+
+4. Faith / life philosophy 
+  I believe that life has purpose beyond survival and success. Many people around me focus only on money or status, but I believe meaning, service, and spiritual alignment matter more in the end.
+
+5. Discipline vs Motivation 
+  I believe discipline is more important than motivation. Most people around me wait to feel motivated, but I believe showing up consistently—even when you don’t feel like it—is what actually changes lives.
+
 
 # Assignment 2. What are the top 3 objective truths you discovered through experimentation and results?
 
@@ -55,37 +70,32 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+●	Truth #1: Consistency produces better results than intensity.
 
 ### Evidence from my life
 
-Add your answer here...
+●	 I didn't have any background in telecommunications when i gained employment in the industry but i set daily study time, i kept to it, i kept taking corrections humbly and today, several years later am an experienced radio network engineer.
 
----
 
 ## Truth #2
 
 ### Truth
 
-Add your answer here...
+●	Truth #2: Feedback and correction accelerate improvement.
 
 ### Evidence from my life
 
-Add your answer here...
-
----
+part of what helped my growth in the telecommunications space is my ability to receive feedbacks and correction from both senior and junior colleagues, these has given me the success i enjoy at the moment.
 
 ## Truth #3
 
 ### Truth
 
-Add your answer here...
+●	Truth #3: Action leads to clarity more than planning alone.
 
 ### Evidence from my life
 
-Add your answer here...
-
----
+while i was studying my AWS Cloud practitioner certification, i initially studied then attempted past questions or exam dumps but when i did hands- on to deploy instances even though sometimes i was wrong but it helped me gain better understanding. Now i passed the certification.
 
 # Assignment 3. What does your 2.0 version look like?
 
@@ -135,15 +145,21 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+My version 2.0 (Future Self)
+By 2030, I had become a globally recognized cloud and DevOps professional and the founder of Revealing Blaze Technologies, a technology company that helps enterprises design, secure, and operate resilient cloud infrastructure. As technology evolves, Revealing Blaze plays a significant role in helping organizations stay ahead, adopt modern solutions, and maintain competitive advantage.
+
+I have trained and mentored over 20,000 cloud and DevOps engineers, empowering young professionals in Nigeria and across Africa. I lead large-scale cloud migrations, automation, and multi-cloud projects across Africa, Europe, and North America, while contributing to open-source DevOps tools used globally. I deliver secure, cost-optimized, and highly reliable systems with near-zero downtime for critical workloads.
+
+Through Revealing Blaze Technologies, I advise governments, startups, and enterprises on cloud adoption, digital transformation, and workforce development. I am building a legacy of technical excellence, ethical leadership, and empowerment—using cloud technology to create opportunity and solve real-world problems.
+
+
+P.S. This post is part of the DevOps Micro Internship (DMI) Cohort-3 by Pravin Mishra
 
 ### Public Link
 
 Paste your link here:
 
-`__________________________`
-
----
+https://www.linkedin.com/posts/richmond-usoh-16672531_my-version-20-future-self-by-2030-i-had-activity-7417354842697981952-IPka?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY
 
 # Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
 
@@ -173,9 +189,11 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+●	Yes 
+●	It was at the airport, i was travelling to another state in Nigeria and i could not afford to miss my flight so i had to jump the queue, At the time of such shortcut behaviour, i felt clever, smart because the Queue was really long and if i had to join the queue from the right position which is from behind, i felt i might miss my flight.
+When some elderly people started complaining from behind why i didnt join the queue like every normal citizens i felt embarrassed and disappointed in myself. I wondered if elderly people could be civilized to join the queue normally why could i not do same.
+I changed my mentality after that incident.
 
----
 
 # Assignment 5. What are 10 non-fiction books you plan to read in the next 1 year?
 
@@ -199,18 +217,19 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. You become what you think - Shubam Khumar
+2. The ONE thing - Gary Keller
+3. The 5 AM Club - Robin Sharma
+4. Start with why - Simon Sinek
+5. so good they cant ignore you - Cal Newport
+6. Shoe Dog - Phil Knight
+7. IKIGAI - Justin Barnes
+8. psycho cybenetics - Maxwell Maltz
+9. Deep work - Cal Newport
+10.Atomic Habits - James Clear    
 
----
+
+
 
 # Assignment 6. What are the things you will measure regularly in your life and career?
 
@@ -237,16 +256,16 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Income and wages
+* Career certifications and professional achievements
+* Health and fitness
+* Time management 
+* Financial intelligence and expenses management
+* Childrens academic progress
+* Spiritual growth.
+* Daily sleeping hours
+* Family bonding
+* Mental health
 
 ---
 
@@ -270,11 +289,18 @@ Examples:
 
 **Yes / No**
 
-Answer:
+Answer: Yes
 
-Add your answer here...
-
----
+1. Buy building materials for site work at ikorodu
+2. prepare for a job interview
+3. Apply for national passport for family
+4. visit a former colleague, pastor ID during the weekend.
+5. continue revision for solutions achitect
+6. visit isreal studio to get the price of studio lighting setup kit
+7. start reading ikigai this week
+8. study how to setup claude code and its usage
+9. take lenovo laptop to ikeja and replace faulty hard disk 
+10. enroll for an AI Automatioc course
 
 ## Step 2: Your 5-Month Routine + Focus Blocks
 
@@ -290,21 +316,22 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+1.	
+Mon– Fri, 6pm - 9pm (DMI Study and assignments)
+Sat, 5am - 2pm (DMI Live classes)
 
----
 
 ### Focus Blocks
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+(mon - fri) (6pm - 9pm daily)
+
+
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
-
----
+5 sessions per week
 
 ### Distraction Rules
 
@@ -316,38 +343,37 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
-
----
+1. No phones in study room
+2. No social media tabs open while studying
+3. Atleast minimum of 2 hours study daily
 
 # Reflection – Week 1
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+I realized due to my drive for knowledge, i tend to consume one youtube videos after the other but I learn best when I slow down, seek clarity, and focus on understanding the foundational knowledge rather than rushing through content.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+I tend to consume information without always converting it immediately into hands-on practice or documented output.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+Daily 60-minute focused learning block from 8:00–9:00 PM, followed by 1 hour of hands-on practice or notes documentation.
+
 
 ### LinkedIn Post
 
 Paste your LinkedIn post link here:
 
-`__________________________`
-
----
+https://www.linkedin.com/posts/richmond-usoh-16672531_biggest-insight-i-got-about-myself-this-week-activity-7417643741164822528-f1kV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- LinkedIn Post URL: **https://www.linkedin.com/posts/richmond-usoh-16672531_biggest-insight-i-got-about-myself-this-week-activity-7417643741164822528-f1kV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY**  
+- Blog / Medium : **https://medium.com/@richmondusoh92/the-agentic-shift-how-autonomous-ai-is-rewriting-the-devops-playbook-353fa24329d1**  
 
----
+
 
 ## 📌 About DMI & CloudAdvisory
 
