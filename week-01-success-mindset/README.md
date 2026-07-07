@@ -218,15 +218,35 @@ Choose books that improve:
 ## Book List
 
 1. You become what you think - Shubam Khumar
+![book1](screenshots/You_become_what_you_think.jpg)
+
 2. The ONE thing - Gary Keller
+![book1](screenshots/the_ONE_thing.jpg)
+
 3. The 5 AM Club - Robin Sharma
+![book1](screenshots/the_5_AM_Club.jpg)
+
 4. Start with why - Simon Sinek
+![book1](screenshots/start_with_why.jpg)
+
 5. so good they cant ignore you - Cal Newport
+![book1](screenshots/so_Good_they_cant_ignore_you.jpg)
+
 6. Shoe Dog - Phil Knight
+![book1](screenshots/sHOE_Dog.jpg)
+
 7. IKIGAI - Justin Barnes
+![book1](screenshots/IKIGAI.jpg)
+
 8. psycho cybenetics - Maxwell Maltz
+![book1](screenshots/pshycho_cybernetics.jpg)
+
 9. Deep work - Cal Newport
-10.Atomic Habits - James Clear    
+![book1](screenshots/DEEP_WORK.jpg)
+
+10.Atomic Habits - James Clear 
+![book1](screenshots/Atomic_Habits.jpg)
+
 
 
 

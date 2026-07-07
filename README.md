@@ -14,14 +14,13 @@
 | | |
 |---|---|
 | **Name** | Richmond Usoh |
-| **LinkedIn** | [Richmond Usoh](www.linkedin.com/in/richmond-usoh-16672531) |
+| **LinkedIn** | [Richmond Usoh](https://www.linkedin.com/in/richmond-usoh-16672531/)|
 | **Location** | Lagos Nigeria |
 | **Background** | Transitioning from Radio Frequency Network planning and optimization to Cloud & Devops |
 | **Goal** | Assist more than 5000 indigenous companies transition to cloud and maintain software production seamlessly. |
 
----
-
 ## About the Program
+
 
 **DevOps Micro Internship with Agentic AI** is a 15-week mentor-led cohort program by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) — Cloud, DevOps & AI consultant with 15+ years of experience, 5,000+ learners trained, and 20K+ LinkedIn followers.
 
