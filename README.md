@@ -135,7 +135,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed | — | — |
 | 01 | Success Mindset | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/richmond-usoh-16672531_my-version-20-future-self-by-2030-i-had-activity-7417354842697981952-IPka?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY
  | https://medium.com/@richmondusoh92/the-agentic-shift-how-autonomous-ai-is-rewriting-the-devops-playbook-353fa24329d1 |
-| 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
+| 02 | Agentic AI with Claude Code | 🔄 In Progress | ⏳ Pending | — | — |
 | 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
