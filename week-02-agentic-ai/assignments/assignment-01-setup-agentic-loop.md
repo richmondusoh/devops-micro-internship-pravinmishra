@@ -79,7 +79,12 @@ claude
 **Expected Output:** Version number printed. Browser opens for Anthropic login. After logging in, the Claude Code prompt appears in your terminal.
 
 **Screenshots Required:**
+
+![alt text](claude_code.jpg)
+
 - Screenshot 1 — Terminal showing `claude --version` with the version number visible
+
+![alt text](claude_code_terminal.jpg)
 - Screenshot 2 — Claude Code authenticated and showing the terminal prompt 
 
 ---
@@ -104,6 +109,9 @@ code .
 **Expected Output:** VS Code opens showing `index.html`, `style.css`, and the `images/` folder in the sidebar. No `.claude/` directory exists yet. (Remove the .claude folder, CLAUDE.md, and .github folder if they exist.)
 
 **Screenshots Required:**
+
+![alt text](Project_files.jpg)
+
 - Screenshot 3 — VS Code with the project open, file tree visible showing `index.html`, `style.css`, `images/`
 
 ---
@@ -130,7 +138,11 @@ How many lines of CSS does this project have?
 - Question 2: Claude runs a command like `wc -l style.css` and reports the exact number
 
 **Screenshots Required:**
+
+![alt text](task_3_Q1.jpg)
 - Screenshot 4 — Claude's response to the first question, showing it read the files (tool calls visible)
+
+![alt text](task_3_Q1-1.jpg)
 - Screenshot 5 — Claude's response to the second question, showing it ran a command and reported the line count
 
 ---
@@ -168,10 +180,10 @@ Not required for this assignment.
 ## 12. Completion Checklist
 
 Before submission, verify:
-- [ ] Claude Code CLI installed and `claude --version` works
-- [ ] Claude Code authenticated — opens without asking for login again
-- [ ] Starter repo forked and cloned
-- [ ] All 5 screenshots captured and added to your GitHub Repository file
-- [ ] GitHub repo URL included
+- [✅ ] Claude Code CLI installed and `claude --version` works
+- [✅ ] Claude Code authenticated — opens without asking for login again
+- [✅] Starter repo forked and cloned
+- [✅ ] All 5 screenshots captured and added to your GitHub Repository file
+- [✅ ] GitHub repo URL included
 
 ---
