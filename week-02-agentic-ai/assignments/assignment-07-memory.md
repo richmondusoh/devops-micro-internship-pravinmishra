@@ -75,6 +75,8 @@ Where does your memory file live for this project? Show me the full path.
 **Expected Output:** Claude gives you the full absolute path to the `MEMORY.md` file. The file may be empty or not yet exist — that is fine.
 
 **Screenshots Required:**
+
+![alt text](Assignment7_screenshot_1.jpg)
 - Screenshot 1 — Memory file path shown by Claude
 
 ---
@@ -96,7 +98,11 @@ Remember the following for all future sessions: The CSS hero section uses a dark
 **Expected Output:** Claude confirms the memory was saved. The `MEMORY.md` file now contains all three pieces of information.
 
 **Screenshots Required:**
+
+![alt text](Assignment7_screenshot_2.jpg)
 - Screenshot 2 — Claude confirming the memory was saved
+
+![alt text](Question7_screenshot_3.jpg)
 - Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
 
 ---
@@ -119,6 +125,8 @@ Remember the following for all future sessions: The CSS hero section uses a dark
 **Expected Output:** Claude Code session is fully closed. A fresh session is opened with no previous conversation visible.
 
 **Screenshots Required:**
+
+![alt text](Question7_screenshot_4.jpg)
 - Screenshot 4 — VS Code reopened with a fresh Claude Code session showing no previous conversation
 
 ---
@@ -148,7 +156,9 @@ Should I add a JavaScript animation to the hero section?
 - Question 3: Claude refuses the JavaScript request — citing the memory rule
 
 **Screenshots Required:**
+![alt text](Question7_screenshot_5.jpg)
 - Screenshot 5 — Claude recalling hero section colors
+![alt text](Question7_screenshot_6.jpg)
 - Screenshot 6 — Claude refusing JavaScript request based on memory rule
 
 ---
@@ -185,7 +195,12 @@ Create a LinkedIn post including:
 - Tag: #DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps
 
 **Submit:**
+
+https://www.linkedin.com/posts/richmond-usoh-16672531_dmibypravinmishra-agenticai-claudecode-ugcPost-7482508775606648833-9BkR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY
+
 - LinkedIn post URL
+
+![alt text](Question_7_linkdlnpost.jpg)
 - Screenshot of the post
 
 ---
@@ -193,10 +208,10 @@ Create a LinkedIn post including:
 ## 12. Completion Checklist
 
 Before submission, verify:
-- [ ] Memory file path identified and shown in Screenshot 1
-- [ ] Three facts saved to memory and visible in MEMORY.md (Screenshot 3)
-- [ ] Session fully closed and fresh session opened (Screenshot 4)
-- [ ] Claude recalled hero colors in new session without prompting (Screenshot 5)
-- [ ] Claude refused JavaScript — memory rule enforced (Screenshot 6)
-- [ ] All 6 screenshots captured and updated in GitHub folder
+- [✅] Memory file path identified and shown in Screenshot 1
+- [✅] Three facts saved to memory and visible in MEMORY.md (Screenshot 3)
+- [✅] Session fully closed and fresh session opened (Screenshot 4)
+- [✅] Claude recalled hero colors in new session without prompting (Screenshot 5)
+- [✅] Claude refused JavaScript — memory rule enforced (Screenshot 6)
+- [✅] All 6 screenshots captured and updated in GitHub folder
 
