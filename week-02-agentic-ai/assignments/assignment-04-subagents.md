@@ -75,6 +75,8 @@ mkdir -p .claude/agents
 **Expected Output:** `.claude/agents/` contains `security-auditor.md`, `tf-writer.md`, `cost-optimizer.md`.
 
 **Screenshots Required:**
+![alt text](Q4_screenshot_1.jpg)
+
 - Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
 ---
@@ -87,15 +89,32 @@ mkdir -p .claude/agents
 1. Open `security-auditor.md` — note the `tools` and `model` fields
 2. Open `cost-optimizer.md` — note the `tools` and `model` fields
 3. Open `tf-writer.md` — note the `tools` and `model` fields
+
 4. Write a short answer (2–3 sentences each) to these 3 questions:
+
+
    - Why does the cost optimizer use Haiku instead of Sonnet?
+A cost optimizer uses Claude Haiku instead of Sonnet primarily because it is designed for maximum efficiency in mechanical, well-defined tasks. 
+A cost optimizer defaults to Haiku rather than Sonnet for specific reasons: 
+•	Drastically Lower Pricing: 
+•	Optimized for Simpler Tasks. 
+•	Speed and Throughput: 
+
    - Why does the security auditor NOT have Write in its tools list?
+
+Security auditors lack "Write" capabilities to maintain strict impartiality, data integrity, and compliance. This limitation is by design to ensure they cannot alter system files or logs, preventing conflicts of interest and guaranteeing that their audit trails remain verifiable, tamper-proof, and completely objective.
+
    - Why does the tf-writer use `inherit` instead of a specific model?
+
+   The tf-writer (or similar logging agents) uses inherit instead of a specific model to decouple the agent's behavior from any single architecture. This allows it to adapt dynamically to whichever model or pipeline is passed to it, making the code more flexible, modular, and easier to scale.
 
 **Expected Output:** 3 written answers in your GitHub Repository folder showing you understand the design decisions behind each agent.
 
 **Screenshots Required:**
+![alt text](Question4_screenshot_2.jpg)
 - Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
+
+![alt text](Question4_screenshot_3.jpg)
 - Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
 ---
@@ -118,7 +137,10 @@ Audit my Terraform files for security issues.
 **Expected Output:** Claude shows a delegation message — "Launching security-auditor agent." The report comes back organized by severity. Likely findings include missing S3 encryption, TLS version, and access logging.
 
 **Screenshots Required:**
+![alt text](Q4_subagents_screenshot_4.jpg)
 - Screenshot 4 — The delegation message showing Claude launched the security-auditor
+
+![alt text](Q4_subagents_screenshot_5.jpg)
 - Screenshot 5 — Security audit report output
 
 ---
@@ -140,6 +162,8 @@ Review my Terraform infrastructure for cost optimization.
 **Expected Output:** Claude delegates to cost-optimizer. It finishes noticeably faster. Report covers CloudFront price class, versioning lifecycle policy recommendation, and estimated monthly cost.
 
 **Screenshots Required:**
+
+![alt text](Question4_screenshot_6.jpg)
 - Screenshot 6 — The full cost optimization report
 
 ---

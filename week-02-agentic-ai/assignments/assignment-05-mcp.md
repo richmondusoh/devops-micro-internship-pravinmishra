@@ -77,6 +77,8 @@ Each task must be completed sequentially.
 **Expected Output:** A GitHub token starting with `ghp_...`
 
 **Screenshots Required:**
+
+![alt text](Assignment_5_screenshot_1.jpg)
 - Screenshot 1 — GitHub token creation page showing the selected scopes (`repo`, `read:user`) — token value must NOT be visible
 
 ---
@@ -106,6 +108,8 @@ Each task must be completed sequentially.
 **Expected Output:** `.mcp.json` exists at the project root with the GitHub server configuration.
 
 **Screenshots Required:**
+
+![alt text](Question5_json__screenshot_2.jpg)
 - Screenshot 2 — `.mcp.json` open in VS Code showing the full configuration
 
 ---
@@ -133,6 +137,7 @@ Each task must be completed sequentially.
 **Expected Output:** `settings.local.json` has the token in the `env` section and `github` listed in `enabledMcpjsonServers`.
 
 **Screenshots Required:**
+![alt text](Assignment_5_screenshot_3.jpg)
 - Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section — **blur or cover the actual GitHub token value**
 
 ---
@@ -154,7 +159,13 @@ Each task must be completed sequentially.
 **Expected Output:** `/mcp` output shows `github` server with status `connected`.
 
 **Screenshots Required:**
+
+
 - Screenshot 4 — `/mcp` output showing `github: connected`
+![alt text](Assignment_5_screenshot_4.jpg)
+
+![alt text](Question5_mcp.json__screenshot_4.jpg)
+i had some challenges connecting MCP Server, because the .mcp.json file was not in a root directory hence claude cannot find and activate it until i moved to the root then claude cound activate it.
 
 ---
 
