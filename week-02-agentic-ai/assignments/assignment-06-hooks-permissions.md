@@ -118,7 +118,7 @@ Your project should contain the Claude Code configuration structure:
 ```
 
 **Screenshots Required:**
-
+![alt text](Question6_screenshot_1.jpg)
 * Screenshot 1 — `.claude` folder structure visible in VS Code Explorer
 
 ---
@@ -164,7 +164,7 @@ The file exists:
 and contains the UserPromptSubmit hook script.
 
 **Screenshots Required:**
-
+![alt text](Question6_screenshot_2.jpg)
 * Screenshot 2 — `user-prompt-guard.sh` open in VS Code showing the hook script
 
 ---
@@ -210,7 +210,7 @@ The file exists:
 and contains the PreToolUse hook script.
 
 **Screenshots Required:**
-
+![alt text](Question6_screenshot_3.jpg)
 * Screenshot 3 — `pre-tool-guard.sh` open in VS Code showing the hook script
 
 ---
@@ -254,7 +254,7 @@ The file exists:
 and contains the PostToolUse hook script.
 
 **Screenshots Required:**
-
+![alt text](Question6_screenshot_4.jpg)
 - Screenshot 4 — `post-tool-logger.sh` open in VS Code showing the hook script
 
 ---
@@ -353,7 +353,7 @@ settings.json
 ```
 
 **Screenshots Required:**
-
+![alt text](Question6_screenshot_5.jpg)
 * Screenshot 5 — `settings.json` open in VS Code showing permissions and hooks configuration
 
 ---
@@ -399,7 +399,7 @@ Destructive intent detected.
 Claude should not start reading files or executing commands.
 
 **Screenshots Required:**
-
+![alt text](Question6_screenshot_6.jpg)
 - Screenshot 6 — UserPromptSubmit hook blocking the destructive prompt
 
 ---
@@ -445,7 +445,7 @@ Destructive command detected.
 ```
 
 **Screenshots Required:**
-
+![alt text](Question6_screenshot_7.jpg)
 - Screenshot 7 — PreToolUse hook blocking terraform destroy
 
 ---
@@ -511,8 +511,10 @@ Example:
 ```
 
 **Screenshots Required:**
-
+![alt text](Question6_screenshot_8.jpg)
 - Screenshot 8 — Claude running terraform validate successfully
+
+![alt text](Question6_screenshot_9.jpg)
 - Screenshot 9 — `.claude/deploy.log` showing the logged command
 
 ---
@@ -549,18 +551,18 @@ Not required for this assignment.
 
 Before submission, verify:
 
-- [ ] `.claude` folder structure created correctly
-- [ ] `user-prompt-guard.sh` created with UserPromptSubmit hook logic
-- [ ] `pre-tool-guard.sh` created with PreToolUse hook logic
-- [ ] `post-tool-logger.sh` created with PostToolUse logging logic
-- [ ] `settings.json` created with allow and deny permissions
-- [ ] `settings.json` configured to connect all three hooks:
-  - [ ] UserPromptSubmit
-  - [ ] PreToolUse
-  - [ ] PostToolUse
-- [ ] Destructive prompt test shows UserPromptSubmit blocked the request
-- [ ] Terraform destroy command test shows PreToolUse intercepted the command
-- [ ] Terraform validate test shows PostToolUse created the log entry
-- [ ] All required screenshots are captured
+- [✅] `.claude` folder structure created correctly
+- [✅] `user-prompt-guard.sh` created with UserPromptSubmit hook logic
+- [✅] `pre-tool-guard.sh` created with PreToolUse hook logic
+- [✅] `post-tool-logger.sh` created with PostToolUse logging logic
+- [✅] `settings.json` created with allow and deny permissions
+- [✅] `settings.json` configured to connect all three hooks:
+  - [✅] UserPromptSubmit
+  - [✅] PreToolUse
+  - [✅ PostToolUse
+- [✅] Destructive prompt test shows UserPromptSubmit blocked the request
+- [✅] Terraform destroy command test shows PreToolUse intercepted the command
+- [✅] Terraform validate test shows PostToolUse created the log entry
+- [✅] All required screenshots are captured
 
 
