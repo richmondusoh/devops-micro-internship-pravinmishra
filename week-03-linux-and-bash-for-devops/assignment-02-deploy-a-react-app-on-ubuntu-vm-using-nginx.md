@@ -19,10 +19,17 @@ Install Node.js and npm on the Ubuntu VM and verify the installation.
 ### Evidence
 
 #### Screenshot 1 — Output of `node -v && npm -v` showing installed versions
+these 3 commands were implemeted on the virtual machine to install and update nodejs and npm platform.
+
+1. sudo apt update && sudo apt upgrade -y
+
+2. sudo apt install -y nodejs npm
+
+3. node -v && npm -v
 
 Add your screenshot here.
 
----
+![alt text](assignment2_screenshot1.jpg)
 
 # Task 2 — Setup Environment (Nginx)
 
@@ -34,9 +41,32 @@ Install Nginx, start the service, and confirm it is running.
 
 #### Screenshot 2 — Output of `systemctl status nginx --no-pager` showing Active (running)
 
+these are what we are doing here. 
+Install nginx
+
+Verify installation
+
+Start nginx
+
+Enable nginx
+
+Check nginx status 
+
+we are running below commands on the virtual machine,
+
+sudo apt install -y nginx
+
+nginx -v
+
+sudo systemctl start nginx
+
+sudo systemctl enable nginx
+
+systemctl status nginx --no-pager
+
 Add your screenshot here.
 
----
+![alt text](assignment2_screenshot2.jpg)
 
 # Task 3 — Clone React Application
 
@@ -48,9 +78,17 @@ Clone the project repository and verify the project files are present.
 
 #### Screenshot 3 — Output of `ls` inside the `my-react-app` directory showing project files
 
+git clone https://github.com/pravinmishraaws/my-react-app.git
+
+cd my-react-app
+
+ls
+
 Add your screenshot here.
 
----
+below screenshot shows that my react app folder contains : Dockerfile  README.md  package-lock.json  package.json  public  src
+
+![alt text](assignment2_screenshot3.jpg)
 
 # Task 4 — Modify Application (Personalization)
 
@@ -63,8 +101,9 @@ Update `App.js` with your full name and the current date.
 #### Screenshot 4 — `nano App.js` open showing your full name and date filled in
 
 Add your screenshot here.
+Name and date fully updated.
 
----
+![alt text](assignment2_screenshot4.jpg)
 
 # Task 5 — Build React Application
 
@@ -76,7 +115,21 @@ Install dependencies and generate the production build.
 
 #### Screenshot 5 — Output of `ls` inside `my-react-app` showing the `build/` folder generated
 
+below commands were implemented.
+
+cd ..
+
+npm install
+
+npm run build
+
+ls
+
+new directory build mode_modules has been created.
+Dockerfile  README.md  build  node_modules  package-lock.json  package.json  public  src
+
 Add your screenshot here.
+![alt text](assignment2_screenshot5.jpg)
 
 ---
 
@@ -90,7 +143,33 @@ Copy the production build files to the Nginx web root directory.
 
 #### Screenshot 6 — Output of `ls /var/www/html/` showing the deployed build contents
 
+Goal
+Deploy React build to web server.
+
+Steps
+Clear existing Nginx default web files
+
+Copy build files to /var/www/html
+
+Set correct ownership
+
+Set proper file permissions
+
+List the contents of the folder
+
+COMMANDS
+sudo rm -rf /var/www/html/*
+
+sudo cp -r build/* /var/www/html/
+
+sudo chown -R www-data:www-data /var/www/html
+
+sudo chmod -R 755 /var/www/html
+
+ls /var/www/html/
+
 Add your screenshot here.
+![alt text](assignment2_screenshot6.jpg)
 
 ---
 
@@ -105,13 +184,13 @@ Apply Nginx configuration for React routing and confirm the service is active.
 #### Screenshot 7 — Output of `systemctl is-active nginx` showing `active`
 
 Add your screenshot here.
-
+![alt text](assignment2_screenshot7.jpg)
 ---
 
 #### Screenshot 8 — Output of `cat /etc/nginx/sites-available/default` showing the Nginx config
 
 Add your screenshot here.
-
+![alt text](assignment2_screenshot88.jpg)
 ---
 
 # Task 8 — Test Deployment
@@ -126,11 +205,18 @@ Verify the React application is publicly accessible via the server's public IP.
 
 Add your screenshot here.
 
----
+curl ifconfig.me shows my ip ubuntu@ip-172-31-23-209:
+![alt text](assignment2_screenshot9.jpg)
 
+as can be observed react app is live on public ip : http://34.224.80.233/
+![alt text](react-app-running.jpg)
 #### Screenshot 10 — Browser showing the deployed React app at `http://<public-ip>` with your name and date visible
 
+http://34.224.80.233/
+
 Add your screenshot here.
+
+![alt text](react-app-running-1.jpg)
 
 ---
 
@@ -144,13 +230,14 @@ Paste your LinkedIn post URL here:
 
 `Add your URL here`
 
+https://www.linkedin.com/posts/richmond-usoh-16672531_aws-cloudcomputing-devops-activity-7483943913112715265-l-MD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY
 ---
 
 #### Screenshot — LinkedIn post showing the deployed application
 
 Add your screenshot here.
 
----
+![alt text](assignment2_screenshot11.jpg)
 
 # Submission Instructions
 
