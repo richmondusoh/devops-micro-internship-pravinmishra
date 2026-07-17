@@ -208,6 +208,28 @@ You may include points like:
 
 ---
 
+# How My Understanding of DevOps Changed After Using Agentic AI Tools
+
+Before working with Agentic AI tools, I viewed DevOps primarily as a discipline focused on automating software development and operations through tools such as Git, Docker, Kubernetes, CI/CD pipelines, Infrastructure as Code, and cloud platforms. I believed the goal of DevOps was simply to automate repetitive tasks and improve collaboration between development and operations teams.
+
+After using Agentic AI tools, my perspective has expanded significantly.
+
+One of the biggest lessons I learned is that **AI is much more than a chatbot**. Instead of only answering questions, Agentic AI can execute structured workflows, interact with development tools, analyze project files, and assist with complex engineering tasks. It acts more like a technical collaborator than a simple conversational assistant.
+
+I also discovered the importance of **structured workflows**. Agentic AI can follow multi-step processes such as inspecting code, suggesting improvements, running commands, and helping troubleshoot issues in a logical sequence. This makes it a valuable assistant for real-world DevOps tasks where consistency and repeatability are essential.
+
+Another important lesson is that **permissions and tool access matter**. An AI agent should only have access to the tools and resources required for a specific task. Proper permission management helps protect infrastructure, source code, credentials, and production environments while allowing the AI to work effectively within defined boundaries.
+
+Using reusable agents and skills also demonstrated how much manual effort can be reduced. Instead of repeating the same instructions for common tasks, reusable workflows and specialized agents can perform routine activities consistently, improving productivity and reducing the risk of human error.
+
+This experience also reinforced that **DevOps engineers need both automation and control**. While AI can automate many tasks, engineers must still design reliable workflows, review changes, validate outputs, and ensure that automation aligns with organizational standards and security requirements.
+
+Finally, I learned that **human review remains essential**. Although Agentic AI can generate code, recommend infrastructure changes, and automate workflows, engineers are still responsible for verifying accuracy, assessing risks, and making final decisions before deploying changes to production.
+
+Overall, using Agentic AI has changed my understanding of DevOps from simply automating tasks to building intelligent, collaborative workflows where AI enhances engineering productivity while human expertise provides oversight, governance, and accountability. I believe the future of DevOps lies in combining automation with intelligent AI agents that help teams deliver software more efficiently without compromising quality, security, or control.
+
+
+
 #### 6. My Week 2 highlight
 
 Write about one moment you are proud of.
@@ -273,13 +295,13 @@ https://github.com/richmondusoh/devops-micro-internship-pravinmishra.git
 
 Before submission, verify:
 
-* [ ] Reflection title is included
-* [ ] Full name is visible
-* [ ] Reflection is at least 300 words
-* [ ] All 6 required sections are answered
-* [ ] At least two Week 2 technical topics are mentioned
-* [ ] One exact habit/system is included
-* [ ] LinkedIn post is created
-* [ ] Required P.S. line is included in the LinkedIn post
-* [ ] LinkedIn post URL is added
-* [ ] Screenshot of LinkedIn post is added
+* [✅] Reflection title is included
+* [✅] Full name is visible
+* [✅] Reflection is at least 300 words
+* [✅] All 6 required sections are answered
+* [✅] At least two Week 2 technical topics are mentioned
+* [✅] One exact habit/system is included
+* [✅] LinkedIn post is created
+* [✅] Required P.S. line is included in the LinkedIn post
+* [✅] LinkedIn post URL is added
+* [✅] Screenshot of LinkedIn post is added
