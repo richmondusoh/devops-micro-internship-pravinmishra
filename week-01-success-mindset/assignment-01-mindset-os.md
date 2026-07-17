@@ -159,7 +159,13 @@ P.S. This post is part of the DevOps Micro Internship (DMI) Cohort-3 by Pravin M
 
 Paste your link here:
 
+<<<<<<< HEAD
 https://www.linkedin.com/posts/richmond-usoh-16672531_my-version-20-future-self-by-2030-i-had-activity-7417354842697981952-IPka?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY
+=======
+`Add your URL here`
+
+---
+>>>>>>> upstream/main
 
 # Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
 
@@ -386,7 +392,13 @@ Daily 60-minute focused learning block from 8:00–9:00 PM, followed by 1 hour o
 
 Paste your LinkedIn post link here:
 
+<<<<<<< HEAD
 https://www.linkedin.com/posts/richmond-usoh-16672531_biggest-insight-i-got-about-myself-this-week-activity-7417643741164822528-f1kV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY
+=======
+`Add your URL here`
+
+---
+>>>>>>> upstream/main
 
 ## 10. Proof of Work
 
