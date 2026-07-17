@@ -111,7 +111,22 @@ For example, you can write about:
 * Why hooks and permissions are important for safety
 * How memory helps make the workflow more consistent
 
----
+# Why Hooks and Permissions Are Important for Safety
+
+As AI-powered development tools become more capable, they also gain the ability to perform actions that can directly affect our systems, code, and data. Features like **hooks** and **permissions** are therefore essential because they provide control, accountability, and protection when working with AI.
+
+**Hooks** are automated actions or scripts that run before or after specific events. They help enforce standards and automate repetitive tasks without relying on manual intervention. For example, a hook can automatically run code formatting, execute tests, perform security scans, or validate configurations before changes are committed or deployed. This helps catch mistakes early, improves consistency, and reduces the risk of introducing errors into production environments.
+
+**Permissions**, on the other hand, define what an AI agent or user is allowed to do. Instead of giving unrestricted access, permissions ensure that actions such as modifying files, executing commands, accessing sensitive data, or deploying applications require the appropriate level of authorization. This follows the principle of **least privilege**, where only the minimum access necessary is granted. By limiting access, organizations reduce the risk of accidental mistakes, unauthorized changes, and potential security breaches.
+
+One of the biggest lessons I learned is that AI is powerful, but it should not operate without safeguards. While AI can generate code, automate workflows, and execute tasks much faster than humans, it can also make incorrect assumptions if given unclear instructions or incomplete information. Hooks and permissions act as safety mechanisms that help detect errors, enforce best practices, and prevent harmful actions before they have a significant impact.
+
+Another important benefit is accountability. When permissions are properly configured and hooks are integrated into workflows, every automated action becomes more predictable and easier to monitor. This makes collaboration within development teams more secure and ensures that changes are reviewed and validated before reaching production.
+
+In the context of DevOps, safety is just as important as speed. Automation should accelerate development without compromising reliability or security. Hooks provide automated quality checks, while permissions ensure that AI and users operate within defined boundaries. Together, they create a safer and more trustworthy environment for building, testing, and deploying software.
+
+My biggest takeaway is that successful AI-assisted development is not just about giving AI more power—it is about giving it the **right amount of power** with the appropriate safeguards in place. Hooks and permissions make it possible to enjoy the productivity benefits of AI while maintaining the security, reliability, and control that every modern software engineering team requires.
+
 
 #### 2. Biggest insight I got about myself this week
 
@@ -123,6 +138,16 @@ For example:
 * Do you learn better by doing instead of watching?
 * Did you become more confident using terminal commands?
 * Did you realize documentation is part of engineering?
+
+
+
+ANSWER
+
+Biggest insight I got about myself this week:
+
+I realized due to my drive for knowledge, i tend to consume one youtube videos after the other but I learn best when I slow down, seek clarity, and focus on understanding the foundational knowledge rather than rushing through content.
+
+
 
 ---
 
@@ -138,7 +163,13 @@ For example:
 * I forget to take screenshots at the correct step
 * I do not commit changes regularly
 
----
+
+
+
+ANSWER
+
+My biggest weakness/loop I noticed:
+I tend to consume information without always converting it immediately into hands-on practice or documented output.
 
 #### 4. One system I will implement from this week
 
@@ -150,7 +181,13 @@ Your answer must include:
 * When you will do it
 * How it will help you
 
-Example:
+
+
+
+ANSWER
+
+One system I will implement from this week (exact habit + time):
+Daily 60-minute focused learning block from 8:00–9:00 PM, followed by 1 hour of hands-on practice or notes documentation.
 
 > Before starting every assignment, I will create a checklist in my notebook and verify each screenshot requirement before moving to the next task. I will do this every evening before my study session so that I do not miss proof during submission.
 
@@ -199,6 +236,8 @@ Your reflection blog must include:
 * Blog/document link must be publicly viewable or accessible to reviewers
 
 ---
+LINK TO BLOGPOST
+
 
 https://medium.com/@richmondusoh92/week-2-reflection-my-journey-into-agentic-ai-with-claude-code-390bc618b3ee
 
@@ -226,6 +265,8 @@ Hashtags:
 
 Submit the GitHub Repo Link. 
 
+
+https://github.com/richmondusoh/devops-micro-internship-pravinmishra.git
 ---
 
 ## 12. Completion Checklist
