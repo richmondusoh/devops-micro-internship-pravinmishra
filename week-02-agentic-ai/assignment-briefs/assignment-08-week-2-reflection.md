@@ -259,8 +259,6 @@ Your reflection blog must include:
 
 ---
 LINK TO BLOGPOST
-
-
 https://medium.com/@richmondusoh92/week-2-reflection-my-journey-into-agentic-ai-with-claude-code-390bc618b3ee
 
 ## 10. LinkedIn Post Requirement
@@ -286,8 +284,6 @@ Hashtags:
 ## 11. Submission Instructions
 
 Submit the GitHub Repo Link. 
-
-
 https://github.com/richmondusoh/devops-micro-internship-pravinmishra.git
 ---
 

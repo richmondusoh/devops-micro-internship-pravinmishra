@@ -137,7 +137,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed | — | — |
 | 01 | Success Mindset | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/richmond-usoh-16672531_my-version-20-future-self-by-2030-i-had-activity-7417354842697981952-IPka?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY
  | https://medium.com/@richmondusoh92/the-agentic-shift-how-autonomous-ai-is-rewriting-the-devops-playbook-353fa24329d1 |
-| 02 | Agentic AI with Claude Code | 🔄 In Progress | ⏳ Pending | — | — |
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ completed | https://www.linkedin.com/posts/richmond-usoh-16672531_dmibypravinmishra-agenticai-claudecode-ugcPost-7482066304967929856-Nky4/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY | https://medium.com/@richmondusoh92/week-2-reflection-my-journey-into-agentic-ai-with-claude-code-390bc618b3ee |
 | 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
@@ -151,9 +151,9 @@ This is not a course. It is an internship-style program — real deployments, re
 | 13 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
 | 14 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
 =======
-| 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
-| 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | — | — |
-| 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
+| 00 | Internet & Networking Basics | ✅ Not Started | ✅ Pending | — | — |
+| 01 | Success Mindset | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/richmond-usoh-16672531_my-version-20-future-self-by-2030-i-had-activity-7417354842697981952-IPka?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY | https://medium.com/@richmondusoh92/the-agentic-shift-how-autonomous-ai-is-rewriting-the-devops-playbook-353fa24329d1 |
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/richmond-usoh-16672531_dmibypravinmishra-agenticai-claudecode-ugcPost-7482066304967929856-Nky4/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY | https://medium.com/@richmondusoh92/week-2-reflection-my-journey-into-agentic-ai-with-claude-code-390bc618b3ee |
 | 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |

@@ -157,15 +157,12 @@ P.S. This post is part of the DevOps Micro Internship (DMI) Cohort-3 by Pravin M
 
 ### Public Link
 
-Paste your link here:
-
-<<<<<<< HEAD
 https://www.linkedin.com/posts/richmond-usoh-16672531_my-version-20-future-self-by-2030-i-had-activity-7417354842697981952-IPka?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY
 =======
-`Add your URL here`
+`https://www.linkedin.com/posts/richmond-usoh-16672531_my-version-20-future-self-by-2030-i-had-activity-7417354842697981952-IPka?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY`
 
 ---
->>>>>>> upstream/main
+upstream/main
 
 # Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
 
@@ -194,7 +191,6 @@ If Yes:
 **What emotion did you feel?** (minimum 50–100 words)
 
 ## Answer
-
 ●	Yes 
 ●	It was at the airport, i was travelling to another state in Nigeria and i could not afford to miss my flight so i had to jump the queue, At the time of such shortcut behaviour, i felt clever, smart because the Queue was really long and if i had to join the queue from the right position which is from behind, i felt i might miss my flight.
 When some elderly people started complaining from behind why i didnt join the queue like every normal citizens i felt embarrassed and disappointed in myself. I wondered if elderly people could be civilized to join the queue normally why could i not do same.
@@ -314,7 +310,6 @@ Examples:
 ### Did You Do It?
 
 **Yes / No**
-
 Answer: Yes
 
 1. Buy building materials for site work at ikorodu
@@ -390,15 +385,12 @@ Daily 60-minute focused learning block from 8:00–9:00 PM, followed by 1 hour o
 
 ### LinkedIn Post
 
-Paste your LinkedIn post link here:
-
-<<<<<<< HEAD
 https://www.linkedin.com/posts/richmond-usoh-16672531_biggest-insight-i-got-about-myself-this-week-activity-7417643741164822528-f1kV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY
 =======
-`Add your URL here`
+`https://www.linkedin.com/posts/richmond-usoh-16672531_biggest-insight-i-got-about-myself-this-week-activity-7417643741164822528-f1kV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY
+=======`
 
----
->>>>>>> upstream/main
+upstream/main
 
 ## 10. Proof of Work
 
