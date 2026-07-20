@@ -27,8 +27,6 @@ these 3 commands were implemeted on the virtual machine to install and update no
 
 3. node -v && npm -v
 
-Add your screenshot here.
-
 ![alt text](assignment2_screenshot1.jpg)
 
 # Task 2 — Setup Environment (Nginx)
@@ -64,8 +62,6 @@ sudo systemctl enable nginx
 
 systemctl status nginx --no-pager
 
-Add your screenshot here.
-
 ![alt text](assignment2_screenshot2.jpg)
 
 # Task 3 — Clone React Application
@@ -83,8 +79,7 @@ git clone https://github.com/pravinmishraaws/my-react-app.git
 cd my-react-app
 
 ls
-
-Add your screenshot here.
+![alt text](assignment2_screenshot3.jpg)
 
 below screenshot shows that my react app folder contains : Dockerfile  README.md  package-lock.json  package.json  public  src
 
@@ -99,9 +94,6 @@ Update `App.js` with your full name and the current date.
 ### Evidence
 
 #### Screenshot 4 — `nano App.js` open showing your full name and date filled in
-
-Add your screenshot here.
-Name and date fully updated.
 
 ![alt text](assignment2_screenshot4.jpg)
 
@@ -128,7 +120,6 @@ ls
 new directory build mode_modules has been created.
 Dockerfile  README.md  build  node_modules  package-lock.json  package.json  public  src
 
-Add your screenshot here.
 ![alt text](assignment2_screenshot5.jpg)
 
 ---
@@ -168,7 +159,6 @@ sudo chmod -R 755 /var/www/html
 
 ls /var/www/html/
 
-Add your screenshot here.
 ![alt text](assignment2_screenshot6.jpg)
 
 ---
@@ -183,13 +173,11 @@ Apply Nginx configuration for React routing and confirm the service is active.
 
 #### Screenshot 7 — Output of `systemctl is-active nginx` showing `active`
 
-Add your screenshot here.
 ![alt text](assignment2_screenshot7.jpg)
 ---
 
 #### Screenshot 8 — Output of `cat /etc/nginx/sites-available/default` showing the Nginx config
 
-Add your screenshot here.
 ![alt text](assignment2_screenshot88.jpg)
 ---
 
@@ -203,8 +191,6 @@ Verify the React application is publicly accessible via the server's public IP.
 
 #### Screenshot 9 — Output of `curl ifconfig.me` showing the server's public IP address
 
-Add your screenshot here.
-
 curl ifconfig.me shows my ip ubuntu@ip-172-31-23-209:
 ![alt text](assignment2_screenshot9.jpg)
 
@@ -213,8 +199,6 @@ as can be observed react app is live on public ip : http://34.224.80.233/
 #### Screenshot 10 — Browser showing the deployed React app at `http://<public-ip>` with your name and date visible
 
 http://34.224.80.233/
-
-Add your screenshot here.
 
 ![alt text](react-app-running-1.jpg)
 
@@ -228,14 +212,12 @@ Add your screenshot here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/richmond-usoh-16672531_aws-cloudcomputing-devops-activity-7483943913112715265-l-MD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY`
 
 https://www.linkedin.com/posts/richmond-usoh-16672531_aws-cloudcomputing-devops-activity-7483943913112715265-l-MD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY
 ---
 
 #### Screenshot — LinkedIn post showing the deployed application
-
-Add your screenshot here.
 
 ![alt text](assignment2_screenshot11.jpg)
 
