@@ -121,7 +121,6 @@ Your project should contain the Claude Code configuration structure:
 ![alt text](Question6_screenshot_1.jpg)
 * Screenshot 1 — `.claude` folder structure visible in VS Code Explorer
 
----
 
 ### Task 2 — Create the UserPromptSubmit Hook Script
 
@@ -257,7 +256,6 @@ and contains the PostToolUse hook script.
 ![alt text](Question6_screenshot_4.jpg)
 - Screenshot 4 — `post-tool-logger.sh` open in VS Code showing the hook script
 
----
 
 ### Task 5 — Configure settings.json to Connect Hook Scripts
 
@@ -356,7 +354,6 @@ settings.json
 ![alt text](Question6_screenshot_5.jpg)
 * Screenshot 5 — `settings.json` open in VS Code showing permissions and hooks configuration
 
----
 
 ### Task 6 — Test the UserPromptSubmit Hook
 

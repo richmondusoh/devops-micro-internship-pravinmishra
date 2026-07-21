@@ -20,7 +20,7 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
-Add your screenshot here.
+![alt text](assignment-briefs/Q4_screenshot_1.jpg).
 
 ---
 
@@ -34,19 +34,28 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 #### 1. Why does the cost optimizer use Haiku instead of Sonnet?
 
-Add your answer here...
+A cost optimizer uses Claude Haiku instead of Sonnet primarily because it is designed for maximum efficiency in mechanical, well-defined tasks. 
+A cost optimizer defaults to Haiku rather than Sonnet for specific reasons: 
+•	Drastically Lower Pricing: 
+•	Optimized for Simpler Tasks. 
+•	Speed and Throughput: 
+
 
 ---
 
 #### 2. Why does the security auditor NOT have Write in its tools list?
 
-Add your answer here...
+- Why does the security auditor NOT have Write in its tools list?
+
+Security auditors lack "Write" capabilities to maintain strict impartiality, data integrity, and compliance. This limitation is by design to ensure they cannot alter system files or logs, preventing conflicts of interest and guaranteeing that their audit trails remain verifiable, tamper-proof, and completely objective.
 
 ---
 
 #### 3. Why does the tf-writer use `inherit` instead of a specific model?
 
-Add your answer here...
+- Why does the tf-writer use `inherit` instead of a specific model?
+
+   The tf-writer (or similar logging agents) uses inherit instead of a specific model to decouple the agent's behavior from any single architecture. This allows it to adapt dynamically to whichever model or pipeline is passed to it, making the code more flexible, modular, and easier to scale.
 
 ---
 
@@ -54,13 +63,13 @@ Add your answer here...
 
 #### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
-Add your screenshot here.
+![alt text](assignment-briefs/Question4_screenshot_2.jpg).
 
 ---
 
 #### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
-Add your screenshot here.
+![alt text](assignment-briefs/Question4_screenshot_3.jpg).
 
 ---
 
@@ -74,13 +83,13 @@ Trigger the security auditor agent and analyze the generated security report for
 
 #### Screenshot 4 — The delegation message showing Claude launched the security-auditor
 
-Add your screenshot here.
+![alt text](assignment-briefs/Q4_subagents_screenshot_4.jpg).
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
-Add your screenshot here.
+![alt text](assignment-briefs/Q4_subagents_screenshot_5.jpg).
 
 ---
 
@@ -94,7 +103,7 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — The full cost optimization report
 
-Add your screenshot here.
+![alt text](assignment-briefs/Question4_screenshot_6.jpg).
 
 ---
 
