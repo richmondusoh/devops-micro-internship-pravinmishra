@@ -195,7 +195,7 @@ curl ifconfig.me shows my ip ubuntu@ip-172-31-23-209:
 ![alt text](assignment2_screenshot9.jpg)
 
 as can be observed react app is live on public ip : http://34.224.80.233/
-![alt text](react-app-running.jpg)
+![alt text](react-app-running-1.jpg)
 #### Screenshot 10 — Browser showing the deployed React app at `http://<public-ip>` with your name and date visible
 
 http://34.224.80.233/

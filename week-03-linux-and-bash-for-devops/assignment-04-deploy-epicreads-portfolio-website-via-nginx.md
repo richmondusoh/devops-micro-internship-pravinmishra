@@ -88,7 +88,7 @@ Verify the deployed website is publicly accessible and the footer contains your 
 
 #### Screenshot 6 — Browser showing the live website with your Full Name and deployment details in the footer
 
-![alt text](assignment4_screenshot6.jpg).
+![alt text](assignment4_screenshot6.jpg)
 
 ---
 
