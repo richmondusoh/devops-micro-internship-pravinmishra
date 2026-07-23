@@ -138,7 +138,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ completed | https://www.linkedin.com/posts/richmond-usoh-16672531_dmibypravinmishra-agenticai-claudecode-ugcPost-7482066304967929856-Nky4/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY | https://medium.com/@richmondusoh92/week-2-reflection-my-journey-into-agentic-ai-with-claude-code-390bc618b3ee |
 | 03 | Linux for DevOps | 🔄 In progress | 🔄 In progress |https://www.linkedin.com/posts/richmond-usoh-16672531_devops-aws-nginx-ugcPost-7485003920491151360-9uOm/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY | https://medium.com/@richmondusoh92/how-bash-scripting-enhances-devops-workflows-dc47e26b4c55 |
 | 04 | Bash Scripting | 🔄 In progress | 🔄 In progress | https://www.linkedin.com/posts/richmond-usoh-16672531_devops-aws-nginx-ugcPost-7485003920491151360-9uOm/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY | https://medium.com/@richmondusoh92/how-bash-scripting-enhances-devops-workflows-dc47e26b4c55 |
-| 05 | Git & GitHub | 🔄 In progress | 🔄 In progress | — | — |
+| 05 | Git & GitHub | 🔄 In progress | 🔄 In progress | https://www.linkedin.com/posts/richmond-usoh-16672531_devops-aws-ec2-ugcPost-7486142893066366976-mm3t/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY | — |
 | 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |

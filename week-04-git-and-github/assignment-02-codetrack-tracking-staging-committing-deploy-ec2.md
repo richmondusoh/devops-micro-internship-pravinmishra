@@ -74,7 +74,7 @@ Confirm both files show as untracked, then stage them individually with `git add
 
 #### Screenshot 6 — Output of `git status` showing both files staged under "Changes to be committed"
 
-![alt text](assignment02_screenshot6.jpg)
+![alt text](assignment02_screenshot6_new.jpg)
 
 ---
 
@@ -88,7 +88,7 @@ Commit the staged starter files using the message `Initial UI scaffold: add inde
 
 #### Screenshot 7 — Output of `git commit`
 
-![alt text](assignment02_screenshot7.jpg)
+![alt text](assignment02_screenshot7_new.jpg)
 
 ---
 
@@ -108,13 +108,13 @@ Follow the instruction comment inside `index.html` to update the Student Name an
 
 #### Screenshot 9 — Browser showing the updated page with your Student Name and Group Name visible
 
-Add your screenshot here.
+![alt text](assignment02_screenshot9.jpg).
 
 ---
 
 #### Screenshot 10 — Output of `git status` showing `index.html` as modified
 
-Add your screenshot here.
+![alt text](assignment02_screenshot10.jpg)
 
 ---
 
@@ -140,19 +140,19 @@ Install and start Nginx on your EC2 instance, then copy `index.html` and `style.
 
 #### Screenshot 13 — Output of `systemctl status nginx --no-pager` showing Nginx `active (running)`
 
-Add your screenshot here.
+![alt text](assignment02_screenshot13.jpg)
 
 ---
 
 #### Screenshot 14 — Output of `curl -I http://localhost` showing `HTTP/1.1 200 OK`
 
-Add your screenshot here.
+![alt text](assignment02_screenshot14.jpg)
 
 ---
 
 #### Screenshot 15 — Browser showing the CodeTrack site loaded at `http://<EC2_PUBLIC_IP>`, with your Full Name and Group Name visible
 
-Add your screenshot here.
+![alt text](assignment02_screenshot15.jpg)
 
 ---
 
@@ -164,13 +164,13 @@ Add your screenshot here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/richmond-usoh-16672531_devops-aws-ec2-ugcPost-7486142893066366976-mm3t/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY`
 
 ---
 
 #### Screenshot — LinkedIn post showing the deployed CodeTrack application
 
-Add your screenshot here.
+![alt text](codetrack_linkedln_image.jpg).
 
 ---
 
@@ -185,14 +185,14 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] `CodeTrack` repository verified with `git status` (Screenshots 1–2)
-- [ ] `index.html` and `style.css` created and populated (Screenshots 3–4)
-- [ ] Starter files staged and committed in the first commit (Screenshots 5–8)
-- [ ] Student Name and Group Name updated in `index.html` (Screenshot 9)
-- [ ] Second controlled commit created (Screenshots 10–12)
-- [ ] Nginx active on the EC2 instance and CodeTrack reachable via its public IP (Screenshots 13–15)
-- [ ] LinkedIn post published and URL submitted
-- [ ] No sensitive data exposed
+- [✅] `CodeTrack` repository verified with `git status` (Screenshots 1–2)
+- [✅] `index.html` and `style.css` created and populated (Screenshots 3–4)
+- [✅] Starter files staged and committed in the first commit (Screenshots 5–8)
+- [✅] Student Name and Group Name updated in `index.html` (Screenshot 9)
+- [✅] Second controlled commit created (Screenshots 10–12)
+- [✅] Nginx active on the EC2 instance and CodeTrack reachable via its public IP (Screenshots 13–15)
+- [✅] LinkedIn post published and URL submitted
+- [✅] No sensitive data exposed
 
 ---
 
