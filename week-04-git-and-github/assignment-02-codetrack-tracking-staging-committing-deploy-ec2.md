@@ -120,13 +120,13 @@ Follow the instruction comment inside `index.html` to update the Student Name an
 
 #### Screenshot 11 — Output of `git commit`
 
-Add your screenshot here.
+![alt text](assignment02_screenshot11.jpg).
 
 ---
 
 #### Screenshot 12 — Output of `git log --oneline` showing two commits
 
-Add your screenshot here.
+![alt text](assignment02_screenshot12.jpg).
 
 ---
 
