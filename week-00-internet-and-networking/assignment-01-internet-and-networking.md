@@ -25,7 +25,7 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![alt text](task1_screenshot1.jpg)
 
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
@@ -34,7 +34,9 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+chatgpt gave a simplified learning format which is very relatable, i further learnt that A protocol is a set of rules that tells devices how to communicate with each other over a network.
+Just as people need a common language and agreed rules to have a meaningful conversation, computers and devices need protocols to exchange information correctly.
+Without protocols, one computer might send information in a way that another computer doesn't understand. every system has a set of rules or protocols that makes it perform as a system.
 
 ---
 
@@ -59,7 +61,8 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+When someone anywhere in the world visits the **EpicReads** website, their computer first uses **HTTP** (or the more secure **HTTPS**) to request the webpage from the server hosted in Finland. That request is broken into small pieces called **packets** through a process known as **packet switching**, allowing the data to travel efficiently across the internet. Each packet contains the **IP address** of both the user's device and the Epicreads server, ensuring it knows where to go and where to return. The **TCP/IP** protocol suite manages the communication by making sure the packets are delivered, checked for errors, and reassembled in the correct order. Within seconds, all the packets arrive, and the user's browser puts them back together to display the EpicReads website, no matter where the visitor is in the world.
+
 
 ---
 
@@ -91,7 +94,7 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![alt text](task3_screenshot3.jpg)
 
 
 Replace `task-3-diagram.png` with your actual diagram file name.
@@ -102,18 +105,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* Web server
+* Also Known as NGINX OR Presentation layer
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Application server
+* Also known as business tier
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* DATABASE 
+* MySQL or postgres
 
 ---
 
@@ -142,7 +145,7 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+The Domain Name System (DNS) is like the internet's phone book. Instead of remembering a numeric IP address such as 52.172.142.222, people can simply type epicreads.com into their browser. DNS translates the domain name into the server's IP address so the browser knows where to connect. To link epicreads.com to the server, an A record should be used because it maps a domain name directly to an IPv4 address, making the website easy for users to access.
 
 ---
 
@@ -178,7 +181,7 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
+![alt text](task5_screenshot1.jpg)
 
 
 Replace `task-5-vscode.png` with your actual screenshot file name.
@@ -217,9 +220,7 @@ Add the following credit note at the end of your post:
 
 Paste your LinkedIn post URL here:
 
-```text
-Add your URL here...
-```
+https://www.linkedin.com/posts/richmond-usoh-16672531_devops-micro-internship-dmi-by-pravin-activity-7385842199235637250-DQ-m?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY
 
 ---
 
@@ -227,7 +228,28 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+My Learning Journey in Cloud and DevOps.
+I finally started my Cloud & DevOps Journey after several months of procrastination.
+Thanks to Pravin Mishra FREE DevOps Micro Internship.
+Here’s a quick summary of what I’ve learned so far 👇 
+
+💬 1. Using ChatGPT as a Learning Assistant
+ChatGPT have always been my go-to learning partner! So I found more dynamic ways to use it. It helped simplify complex DevOps concepts, clarify commands, it gave me a good guide. It’s like having a 24/7 mentor that explains both “what” and “why.” 
+
+🌐 2. Internet and Networking
+I deepened my understanding of how data travels across networks — boosting my knowledge about IP addresses, protocols, and how connectivity forms the backbone of cloud applications. These basics are essential for deploying scalable systems. 
+
+🏗️ 3. Application Architecture & Stack
+I explored how modern applications are structured using a three-tier architecture — frontend (UI), backend (logic), and database (storage). This clarified how components interact in real-world DevOps environments. 
+
+🌍 4. Domain Name & DNS (Basic Concepts)
+We explored DNS use cases and examined how domain names like epicreads.com are mapped to server IPs, allowing global users to access websites seamlessly. The A record, CNAME, and other DNS types now make practical sense. 
+
+💻 5. Visual Studio Code Setup (Hands-On)
+Setting up VS Code for web and cloud projects was another highlight — from installing extensions and using the terminal to running live previews. It’s now my main workspace for development and automation tasks.
+ 
+Its going to be a good ride, trust me! I say this because Pravin is a hands-on teacher and he knows how to simplify complex concepts. 
+**P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
 
 ---
 
@@ -235,19 +257,20 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+I found the terminilogies easy i.e frontend, backend, database. i also found the technicalities easy like HTTP, HTTPS, Internet protocols, TCP/IP and how it helps with packet switching.
+i enjoyed how data and packets are transimitted over the internet.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+I found ip addressing and subnet masking quite challenging however i will take more research approaches to study and understand it.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+i will improve on studying ahead of the class session and being conversant with the new topic, while researching ahead. I will also improve on my knowledge on cloud infrastructure and its configuration.
 
 ---
 
