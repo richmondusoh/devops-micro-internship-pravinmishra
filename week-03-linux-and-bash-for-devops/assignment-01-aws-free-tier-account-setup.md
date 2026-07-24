@@ -2,13 +2,13 @@
 
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
----
 
 ## Purpose
 
+
 In this assignment, you will create and verify an AWS Free Tier account as part of onboarding EpicReads — an online bookstore moving to the cloud. You will demonstrate an understanding of AWS fundamentals, Free Tier services, and account setup by answering conceptual questions and capturing proof of a working AWS Console login.
 
----
+
 
 # Task 1 — Understanding AWS & Free Tier
 
@@ -20,56 +20,34 @@ Demonstrate understanding of AWS basics and Free Tier usage by answering the fol
 
 #### Question 1 — What is an AWS account, and why do you need it at this stage?
 
-Write your answer here.
 
----AWS account is a digital workspace where all your cloud infrastructure is created, managed, secured, and billed.
-We need it at this DMI to Practice hands-on, not just theory
-
-2. Create and manage real cloud resources (EC2, S3, IAM, VPC)
-
-3. Understand how cloud infrastructure works in real life
-
-4. Learn security basics like users, roles, and permissions
-
-5. Deploy sample applications and static websites
-
-6. Experiment safely using the AWS Free Tier
-
+AWS account is a digital workspace where all your cloud infrastructure is created, managed, secured, and billed.
+We need it at this DMI to Practice hands-on, not just theory,
+2. Create and manage real cloud resources (EC2, S3, IAM, VPC),
+3. Understand how cloud infrastructure works in real life,
+4. Learn security basics like users, roles, and permissions,
+5. Deploy sample applications and static websites,
+6. Experiment safely using the AWS Free Tier,
 7. Build real projects you can document and show as proof of learning
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
-Write your answer here.
-
----The AWS Free Tier is a program from Amazon Web Services that allows new users to use selected AWS services for free, within defined limits. It is designed to help beginners learn, experiment, and build simple projects on AWS without immediate cost.
+The AWS Free Tier is a program from Amazon Web Services that allows new users to use selected AWS services for free, within defined limits. It is designed to help beginners learn, experiment, and build simple projects on AWS without immediate cost.
 The AWS Free Tier has three types, each with different durations:
-
-1.12-Month Free Tier
-
-○Starts from the day you create your AWS account till the 12th month.
-
-○Offers limited free usage of popular services (e.g., EC2, S3, RDS)
-
-2.Always Free Tier
-
-○Available indefinitely
-
-○Includes services with small free usage limits every month (e.g., AWS Lambda, IAM, RDS, S3, EC2,)
-
-3.Short-Term Trials
-
-○Free for a limited time (usually days or months)
-
+1.12-Month Free Tier,
+Starts from the day you create your AWS account till the 12th month.
+Offers limited free usage of popular services (e.g., EC2, S3, RDS),
+2.Always Free Tier,
+Available indefinitely,
+Includes services with small free usage limits every month (e.g., AWS Lambda, IAM, RDS, S3, EC2,),
+3.Short-Term Trials,
+Free for a limited time (usually days or months),
 ○Applies to specific services.
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
-
-
 1. Amazon EC2, 	Virtual servers (compute)	750 hours/month of t2.micro or t3.micro instance	12-Month Free Tier.
-
-2. Amazon S3, 	Object storage (files, backups, static websites)	5 GB standard storage, 20,000 GET requests, 2,000 PUT requests per month	12-Month Free Tier.
-
+2. Amazon S3, Object storage (files, backups, static websites)	5 GB standard storage, 20,000 GET requests, 2,000 PUT requests per month	12-Month Free Tier.
 3. AWS Lambda	Serverless code execution	1 million requests + 400,000 GB-seconds compute time per month	Always Free
 
 # Task 2 — Create AWS Free Tier Account
@@ -91,10 +69,8 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 ### Evidence
 
 #### Screenshot 1 — AWS Account page showing account name (email may be blurred)
-
-Add your screenshot here.
 ![alt text](assignment1_screenshot1.jpg)
----
+
 
 # Submission Instructions
 
