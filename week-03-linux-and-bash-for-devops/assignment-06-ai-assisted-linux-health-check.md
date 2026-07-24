@@ -20,13 +20,13 @@ Confirm that Nginx and the React application are healthy before building the aut
 
 #### Screenshot 1 — Output of `systemctl is-active nginx`, `ss -ltn | grep ':80'`, and `curl -I http://localhost`
 
-Add your screenshot here.
+![alt text](assignment6_task1_screenshot1.jpg).
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `find . -maxdepth 4 -type d | sort` showing the workspace folder structure
 
-Add your screenshot here.
+![alt text](assignment6_task1_screenshot2.jpg).
 
 ---
 
@@ -36,19 +36,21 @@ Answer the following in your own words:
 
 **1. What proves that Nginx is running?**
 
-Add your answer here.
+to prve nginx is running you will see below ● nginx.service - A high performance web server
+     Loaded: loaded (/lib/systemd/system/nginx.service)
+     Active: active (running) since Tue 2026-07-22 10:15:23 UTC.
 
 ---
 
 **2. What proves that the server is listening for HTTP traffic?**
 
-Add your answer here.
+sudo ss -tulpn | grep nginx below output confirms it. LISTEN 0 511 0.0.0.0:80
 
 ---
 
 **3. Why must you capture a healthy baseline before simulating an incident?**
 
-Add your answer here.
+Capturing a healthy baseline before simulating an incident is important because it gives you a reference point for comparison. Without knowing how your system behaves under normal conditions, it becomes difficult to identify what changed during or after the incident..
 
 ---
 
@@ -62,7 +64,7 @@ Tell Claude exactly what this project does and what it is not allowed to do.
 
 #### Screenshot 3 — CLAUDE.md open in VS Code showing all four sections (Project Overview, Incident Workflow, Safety Rules, Output Rules)
 
-Add your screenshot here.
+![alt text](assignment6_task2_screenshot3.jpg).
 
 ---
 
@@ -72,19 +74,28 @@ Answer the following in your own words:
 
 **1. Why should Claude receive project-specific operational rules?**
 
-Add your answer here.
+Capturing a healthy baseline before simulating an incident is important because it gives you a reference point for comparison. if you dont know how your system behaves under normal conditions, it becomes difficult to identify what changed during or after the incident.
+this clearly Provides a Point of Comparison such that 
+A healthy baseline records the normal state of your system (CPU usage, memory usage, disk usage, network connectivity, service status, response times, etc.).
 
 ---
 
 **2. Why is the human required to execute the recovery command?**
 
-Add your answer here.
+The human is required to execute the recovery command because recovery actions can have significant consequences, and they should only be performed after confirming that they are appropriate and safe.
+Prevents unintended actions, some reasons are that
+An AI or automated system may misinterpret the situation or recommend a recovery that isn't appropriate.
 
 ---
 
 **3. Which rule prevents Claude from making an unsupported diagnosis?**
 
-Add your answer here.
+The rule that prevents Claude from making an unsupported diagnosis is the "Do not guess or fabricate" rule, often referred to as staying within available evidence or avoiding unsupported conclusions.
+In the context of AI-assisted incident response and DevOps, this means Claude should:
+Base its analysis only on the logs, metrics, or evidence that has been provided.
+Clearly distinguish between observations, hypotheses, and confirmed root causes.
+Avoid claiming a definitive diagnosis without sufficient evidence.
+Request additional information when the available data is insufficient.
 
 ---
 
@@ -98,7 +109,7 @@ Use Claude Code to inspect the environment and produce a read-only plan before c
 
 #### Screenshot 4 — Claude Code showing the five-check plan and read-only inspection results
 
-Add your screenshot here.
+![alt text](assignment6_task2_screenshot4.jpg).
 
 ---
 
@@ -108,19 +119,32 @@ Answer the following in your own words:
 
 **1. Which part of this task represents the Gather phase?**
 
-Add your answer here.
+n an AI-assisted incident response workflow, the Gather phase is the stage where information is collected before any diagnosis or recovery actions are taken.
+The Gather phase typically includes:
+Collecting system information (CPU, memory, disk usage)
+Checking the status of services (e.g., Nginx, Docker, PostgreSQL)
+Reviewing application and system logs
+Verifying network connectivity.
 
 ---
 
 **2. Did Claude follow the instruction not to create files? How did you verify this?**
 
-Add your answer here.
+Yes, Claude followed the instruction not to create files. I verified this by checking the project directory before and after running the task and confirming that no new files had been added or modified. I also used Git to verify the repository status with git status, which showed that Claude had not created any unexpected files. Instead, Claude only analyzed the existing information and suggested commands for me to run without making changes to the filesystem.
 
 ---
 
 **3. Why is planning before coding useful in DevOps automation?**
 
-Add your answer here.
+Planning before coding is useful in DevOps automation because it ensures that the automation is accurate, efficient, secure, and aligned with the intended outcome. A well-thought-out plan reduces mistakes, saves time, and makes scripts and workflows easier to maintain.
+Here are the key reasons:
+Clarifies the objective
+Planning helps define what the automation should accomplish before any code is written.
+This reduces misunderstandings and unnecessary work.
+Reduces errors
+Identifying requirements, dependencies, and potential risks beforehand helps prevent mistakes that could affect systems or deployments.
+Improves efficiency
+A clear plan allows you to choose the best tools, workflows, and implementation approach, avoiding repeated revisions..
 
 ---
 
@@ -134,25 +158,25 @@ Create one Bash script that gathers consistent Linux and Nginx health evidence.
 
 #### Screenshot 5 — Top section of `linux-triage.sh` showing variables, thresholds, and the checks array
 
-Add your screenshot here.
+![alt text](assignment6_task4_screenshot5.jpg).
 
 ---
 
 #### Screenshot 6 — Middle section showing check functions and conditionals
 
-Add your screenshot here.
+![alt text](assignment6_task4_screenshot6.jpg).
 
 ---
 
 #### Screenshot 7 — Bottom section showing the loop, summary function, and exit behavior
 
-Add your screenshot here.
+![alt text](assignment6_task4_screenshot7.jpg).
 
 ---
 
 #### Screenshot 8 — Output of `bash -n scripts/linux-triage.sh` (no syntax errors) and `ls -l scripts/linux-triage.sh` showing executable permission
 
-Add your screenshot here.
+![alt text](assignment6_task4_screenshot8.jpg).
 
 ---
 
@@ -162,31 +186,42 @@ Answer the following in your own words:
 
 **1. What is stored in the checks array?**
 
-Add your answer here.
+The checks array is used to store the results of all the validation or health checks performed during a script or workflow. Instead of immediately acting on each individual check, the script collects them in one place so they can be reviewed together.
+Typically, each item in the checks array contains information such as:
+The name of the check (e.g., Nginx status, disk space, memory usage).
+Whether the check passed or failed..
 
 ---
 
 **2. How does the `for` loop use that array?**
 
-Add your answer here.
+The for loop uses the checks array by iterating through each item one at a time and performing an action on it, such as displaying the result, validating it, or generating a report..
 
 ---
 
 **3. Why are the health checks separated into functions?**
 
-Add your answer here.
+Separating the health checks into functions makes the script more organized, reusable, and easier to maintain. Instead of putting all the logic in one long script, each function is responsible for checking a specific part of the system.
+Benefits of using functions
+Improves readability
+Each function has a clear purpose, such as checking disk space, memory usage, or whether Nginx is running.
+This makes the script easier to understand.
 
 ---
 
 **4. What is the purpose of `$(...)` in this script?**
 
-Add your answer here.
+The $(...) syntax in a Bash script is called command substitution. Its purpose is to execute a command and use its output as a value within another command or variable.
+Instead of displaying the command's output on the screen, $(...) captures it so the script can use it..
 
 ---
 
 **5. Why does the script use different exit codes for HEALTHY, WARN, and FAIL?**
 
-Add your answer here.
+The script uses different exit codes for HEALTHY, WARN, and FAIL so that other programs, automation tools, or monitoring systems can understand the outcome and respond appropriately.
+Why different exit codes are important
+Communicates the script's result
+Exit codes provide a simple way for the operating system or another script to know whether everything is working correctly or if there is a problem..
 
 ---
 
@@ -200,13 +235,13 @@ Run the Bash script against the healthy server and verify that it creates a repo
 
 #### Screenshot 9 — Output of `./scripts/linux-triage.sh` showing your Full Name and all five check results
 
-Add your screenshot here.
+![alt text](assignment6_task4_screenshot9.jpg).
 
 ---
 
 #### Screenshot 10 — Output showing the captured exit code and final summary
 
-Add your screenshot here.
+![alt text](assignment6_task4_screenshot10.jpg).
 
 ---
 
@@ -216,7 +251,7 @@ Answer the following in your own words:
 
 **1. What is the overall status of your healthy baseline?**
 
-Add your answer here.
+The overall status of my healthy baseline was HEALTHY. All critical checks passed successfully, and the system was operating normally before the incident simulation. Services were running, system resources were within acceptable limits, network connectivity was available, and no abnormal conditions were detected. This baseline provides a reference point for comparing changes after the incident is introduced and helps measure the impact and recovery process..
 
 ---
 
