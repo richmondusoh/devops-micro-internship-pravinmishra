@@ -257,19 +257,19 @@ The overall status of my healthy baseline was HEALTHY. All critical checks passe
 
 **2. Which exact Linux evidence proves the application is serving traffic?**
 
-Add your answer here.
+The exact Linux evidence that proves the application is serving traffic is a successful HTTP response and corresponding entries in the web server access log. Running curl http://localhost returned the expected application content, and the Nginx access log (/var/log/nginx/access.log) recorded HTTP requests with a 200 OK status. This confirms that the application was actively receiving and serving client requests.
 
 ---
 
 **3. Did your script return exit code 0 or 1? Explain why.**
 
-Add your answer here.
+My script returned exit code 0 because all the health checks passed successfully. Exit code 0 indicates that the system is in a healthy state, with no critical issues detected. The required services were running, network connectivity was available, and system resources were within acceptable limits.
 
 ---
 
 **4. What is the difference between a warning and a failure in this script?**
 
-Add your answer here.
+A warning indicates a non-critical issue where the system is still operational but requires attention to prevent future problems. A failure indicates a critical issue that impacts the system's functionality and requires immediate action. In the script, warnings alert the user to potential risks, while failures signal conditions that can prevent the application or service from working correctly..
 
 ---
 
