@@ -59,7 +59,6 @@ Create `contact.html` with the provided content and commit it alone using the me
 ---
 
 #### Screenshot 5 — Output of `git log --oneline -3` showing the new commit
-
 ![alt text](assignment03_screenshot5.jpg)
 
 ---
@@ -106,7 +105,7 @@ Switch back to the default branch and confirm that `contact.html` and the Contac
 
 #### Screenshot 10 — Browser showing the homepage on the default branch with no Contact Page link
 
-![alt text](assignment03_task5_screenshot10.jpg).
+![alt text](assignment03_task5_screenshot10_new.jpg).
 
 ---
 
@@ -120,19 +119,19 @@ Merge `feature/contact-page` into your default branch and confirm the Contact pa
 
 #### Screenshot 11 — Output of `git merge feature/contact-page`
 
-Add your screenshot here.
+![alt text](assignment03_screenshot11_new.jpg).
 
 ---
 
 #### Screenshot 12 — Output of `ls` showing `contact.html` after the merge
 
-Add your screenshot here.
+![alt text](assignment03_task5_screenshot12.jpg).
 
 ---
 
 #### Screenshot 13 — Browser showing the Contact page opened from the homepage link on the default branch
 
-Add your screenshot here.
+![alt text](assignment03_screenshot8.jpg).
 
 ---
 
@@ -146,7 +145,7 @@ Display the repository history as a graph and locate both feature commits.
 
 #### Screenshot 14 — Full output of `git log --oneline --graph --decorate --all`
 
-Add your screenshot here.
+![alt text](assignment03_screenshot14.jpg).
 
 ---
 
@@ -160,9 +159,7 @@ Delete the merged `feature/contact-page` branch to keep your branch list clean.
 
 #### Screenshot 15 (Optional) — Output showing `feature/contact-page` deleted and no longer listed
 
-Add your screenshot here.
 
----
 
 # Submission Instructions
 
