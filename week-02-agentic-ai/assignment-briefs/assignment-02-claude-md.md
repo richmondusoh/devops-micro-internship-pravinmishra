@@ -98,10 +98,8 @@ What is this project and how should I deploy it?
 **Expected Output:** A CLAUDE.md appears at the project root. It has a Project Overview and Architecture section but is missing important details like the intended AWS deployment.
 
 **Screenshots Required:**
-
 ![alt text](Q2_screenshot_2.jpg)
 - Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
-
 ---
 
 ### Task 3 — Customize the CLAUDE.md
@@ -126,7 +124,6 @@ What is this project and how should I deploy it?
 **Expected Output:** A complete CLAUDE.md with all 5 sections, each containing project-specific content.
 
 **Screenshots Required:**
-
 ![alt text](Q2_screenshot_3.jpg)
 - Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
@@ -154,7 +151,6 @@ Add a React component to the homepage.
 
 **Screenshots Required:**
 ![alt text](Q4_screenshot_4.jpg)
-
 - Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
 
 ![alt text](Q4_screenshot_5.jpg)

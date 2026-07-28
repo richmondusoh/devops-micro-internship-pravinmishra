@@ -249,6 +249,7 @@ We explored DNS use cases and examined how domain names like epicreads.com are m
 Setting up VS Code for web and cloud projects was another highlight — from installing extensions and using the terminal to running live previews. It’s now my main workspace for development and automation tasks.
  
 Its going to be a good ride, trust me! I say this because Pravin is a hands-on teacher and he knows how to simplify complex concepts. 
+
 **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
 
 ---

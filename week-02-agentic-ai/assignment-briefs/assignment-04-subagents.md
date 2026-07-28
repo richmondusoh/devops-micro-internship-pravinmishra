@@ -76,10 +76,8 @@ mkdir -p .claude/agents
 
 **Screenshots Required:**
 ![alt text](Q4_screenshot_1.jpg)
-
 - Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
----
 
 ### Task 2 — Compare the Agent Configurations
 
@@ -117,7 +115,6 @@ Security auditors lack "Write" capabilities to maintain strict impartiality, dat
 ![alt text](Question4_screenshot_3.jpg)
 - Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
----
 
 ### Task 3 — Run the Security Auditor
 
@@ -143,7 +140,6 @@ Audit my Terraform files for security issues.
 ![alt text](Q4_subagents_screenshot_5.jpg)
 - Screenshot 5 — Security audit report output
 
----
 
 ### Task 4 — Run the Cost Optimizer
 
@@ -162,17 +158,14 @@ Review my Terraform infrastructure for cost optimization.
 **Expected Output:** Claude delegates to cost-optimizer. It finishes noticeably faster. Report covers CloudFront price class, versioning lifecycle policy recommendation, and estimated monthly cost.
 
 **Screenshots Required:**
-
 ![alt text](Question4_screenshot_6.jpg)
 - Screenshot 6 — The full cost optimization report
 
----
 
 ## 8. Industry Insight
 
 The most common mistake teams make when adopting agentic AI is building one large general-purpose agent and giving it every tool and every capability. This works until something goes wrong — and then it is very hard to diagnose. The subagent pattern solves this. When a security audit runs on read-only tools and produces a wrong result, you know exactly where to look: the agent body and its checklist. Small, focused agents are easier to debug, easier to trust, and easier to improve over time. Start small. Specialize deliberately.
 
----
 
 ## 9. Submission Instructions
 
@@ -204,10 +197,10 @@ Not required for this assignment.
 ## 12. Completion Checklist
 
 Before submission, verify:
-- [ ] All 3 agent files in `.claude/agents/`
-- [ ] Screenshot 2 and 3 show different tools and models for each agent
-- [ ] 3 written answers 
-- [ ] Security auditor ran and produced a report with findings
-- [ ] Cost optimizer ran and produced a report
-- [ ] Agents committed and visible in GitHub repo
+- [✅] All 3 agent files in `.claude/agents/`
+- [✅] Screenshot 2 and 3 show different tools and models for each agent
+- [✅] 3 written answers 
+- [✅] Security auditor ran and produced a report with findings
+- [✅] Cost optimizer ran and produced a report
+- [✅] Agents committed and visible in GitHub repo
 

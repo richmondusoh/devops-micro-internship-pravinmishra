@@ -66,13 +66,9 @@ Elements of the ProofTo confirm the requirement is exactly met, the output must 
 **2. What proves SSH is active on port 22?**
 
 To definitively prove that SSH is active on port 22, you must verify both that the service is listening and that there is no firewall blocking the traffic.1. Verify the Daemon is Listening LocallyLog into your local machine or server and check if the sshd process is actively bound to port 22. Run: sudo ss -tuln | grep :22
-
 A successful output shows the port in a LISTEN state tied to the sshd daemon (e.g., tcp LISTEN 0 128 0.0.0.0:22)
-
 2. Verify Port Reachability (Network/Firewall)Even if the service is running, firewalls or routing rules can block traffic. From your local client machine, test if the port is reachable by running:
-
 nc -zv <server-ip> 22
-
 3. Verify via Remote ConnectionThe ultimate proof is a successful handshake. Use your terminal or preferred SSH client to connect directly.
 
 ssh -v username@server-ip
@@ -122,10 +118,10 @@ Answer the following in your own words:
 	1. What could happen in real production if nginx restarts and doesn’t come back?
 If Nginx restarts and fails to come back in production, it causes an immediate, total outage for all applications relying on it as a reverse proxy, leading to 502 Bad Gateway or connection refused errors for users. Common causes include configuration syntax errors, invalid file paths, or port conflicts (80/443). 
 Key consequences and troubleshooting steps include:
-●	Total Service Downtime: Since Nginx handles SSL/TLS termination, request routing, and caching, its failure cuts off traffic to backend applications.
-●	Failed Restarts (The "No Come Back" Scenario): A failed restart often means the configuration was broken, or the port was occupied.
-●	Immediate Identification: To fix it, check the logs immediately using systemctl status nginx.service or journalctl -xeu nginx.service.
-●	Prevention: Always test configurations with nginx -t before restarting to catch syntax errors, and prefer nginx -s reload over restart to maintain uptime during configuration changes
+1.Total Service Downtime: Since Nginx handles SSL/TLS termination, request routing, and caching, its failure cuts off traffic to backend applications.
+2.Failed Restarts (The "No Come Back" Scenario): A failed restart often means the configuration was broken, or the port was occupied.
+3.Immediate Identification: To fix it, check the logs immediately using systemctl status nginx.service or journalctl -xeu nginx.service.
+4.Prevention: Always test configurations with nginx -t before restarting to catch syntax errors, and prefer nginx -s reload over restart to maintain uptime during configuration changes
 
 
 **2. What's your basic rollback plan?**
@@ -137,8 +133,8 @@ This command can assist you to search out any error in config file. The nginx er
 2. Execute the below command, in case all is working well :
 sudo service nginx reload
 Note:
-●	reload – Without restart, it means your configuration will be reloaded by nginx.
-●	restart – It’ll stop and start the nginx again. Your website will go offline for few seconds.
+reload – Without restart, it means your configuration will be reloaded by nginx.
+restart – It’ll stop and start the nginx again. Your website will go offline for few seconds.
 3. The error log can be checked as below:
 cat /var/log/nginx/error.log
 Thus using above steps, you can resolve the “service nginx restart fails” error.

@@ -197,7 +197,6 @@ Create a LinkedIn post including:
 **Submit:**
 
 https://www.linkedin.com/posts/richmond-usoh-16672531_dmibypravinmishra-agenticai-claudecode-ugcPost-7482508775606648833-9BkR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY
-
 - LinkedIn post URL
 
 ![alt text](Question_7_linkdlnpost.jpg)

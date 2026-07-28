@@ -81,7 +81,6 @@ claude
 **Screenshots Required:**
 
 ![alt text](claude_code.jpg)
-
 - Screenshot 1 — Terminal showing `claude --version` with the version number visible
 
 ![alt text](claude_code_terminal.jpg)
@@ -111,10 +110,7 @@ code .
 **Screenshots Required:**
 
 ![alt text](Project_files.jpg)
-
 - Screenshot 3 — VS Code with the project open, file tree visible showing `index.html`, `style.css`, `images/`
-
----
 
 ### Task 3 — Observe the Agentic Loop
 

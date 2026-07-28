@@ -78,11 +78,8 @@ mkdir -p .claude/skills/deploy
 **Expected Output:** VS Code sidebar shows `.claude/skills/` with 4 folders inside it.
 
 **Screenshots Required:**
-
 ![alt text](Q3_task_1_screenshot_1.jpg)
-- Screenshot 1 — VS Code sidebar showing `.claude/skills/` folder with all 4 subfolders visible
-
----
+- Screenshot 1 — VS Code sidebar showing `.claude/skills/` folder with all 4 subfolders visible.
 
 ### Task 2 — Add the Skill Files
 
@@ -101,7 +98,6 @@ mkdir -p .claude/skills/deploy
 **Expected Output:** Each skill folder contains exactly the right files. `scaffold-terraform` has 2 files. The other 3 have 1 file each.
 
 **Screenshots Required:**
-
 ![alt text](Q3_screenshot_2.jpg)
 - Screenshot 2 — `.claude/skills/scaffold-terraform/` open in VS Code showing both `SKILL.md` and `template-spec.md`
 
@@ -127,13 +123,11 @@ mkdir -p .claude/skills/deploy
 **Expected Output:** Claude creates `main.tf`, `variables.tf`, `outputs.tf`, `providers.tf`, `backend.tf` inside a `terraform/` folder. Claude shows a summary checklist of what was created.
 
 **Screenshots Required:**
-
 ![alt text](Assignment_3_screenshot_4.jpg)
 Scaffold-terraform was able to give an analysis of the project details as seen in above screen shot.
 No existing terraform files. I'll generate the configuration using the defaults (region: ap-south-1, project: portfolio-site) since no overrides were provided. Creating all files now.
 
 - Screenshot 4 — Claude's response showing the scaffold complete with the file list
-
 ![alt text](Assignment_3_screenshot_5.jpg)
 as can be seen in the above image 5 .tf files have been created.
 - Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
@@ -165,7 +159,6 @@ Then in Claude Code:
 **Expected Output:** Claude runs `terraform plan`, receives output or an auth error, and analyzes it. If it errors, Claude explains why it failed and what would be needed to fix it.
 
 **Screenshots Required:**
-
 ![alt text](Assignment_3_screenshot_6.jpg)
 - Screenshot 6 — Claude's `/tf-plan` response showing it ran the command and analyzed the result (pass or auth error both count)
 
@@ -202,9 +195,7 @@ Create a LinkedIn post including:
 - Tag: #DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps
 
 **Submit:**
-
 https://www.linkedin.com/posts/richmond-usoh-16672531_dmibypravinmishra-agenticai-claudecode-ugcPost-7482066304967929856-Nky4/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY
-
 - LinkedIn post URL
 
 ![alt text](Screenshot_linkedln_post_question_3.jpg)
