@@ -24,24 +24,16 @@ Write your answer here.
 
 ---AWS account is a digital workspace where all your cloud infrastructure is created, managed, secured, and billed.
 We need it at this DMI to Practice hands-on, not just theory
-
 2. Create and manage real cloud resources (EC2, S3, IAM, VPC)
-
 3. Understand how cloud infrastructure works in real life
-
 4. Learn security basics like users, roles, and permissions
-
 5. Deploy sample applications and static websites
-
 6. Experiment safely using the AWS Free Tier
-
 7. Build real projects you can document and show as proof of learning
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
-Write your answer here.
-
----The AWS Free Tier is a program from Amazon Web Services that allows new users to use selected AWS services for free, within defined limits. It is designed to help beginners learn, experiment, and build simple projects on AWS without immediate cost.
+The AWS Free Tier is a program from Amazon Web Services that allows new users to use selected AWS services for free, within defined limits. It is designed to help beginners learn, experiment, and build simple projects on AWS without immediate cost.
 The AWS Free Tier has three types, each with different durations:
 
 1.12-Month Free Tier
@@ -61,6 +53,8 @@ The AWS Free Tier has three types, each with different durations:
 ○Free for a limited time (usually days or months)
 
 ○Applies to specific services.
+
+
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
@@ -92,7 +86,6 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 
 #### Screenshot 1 — AWS Account page showing account name (email may be blurred)
 
-Add your screenshot here.
 ![alt text](assignment1_screenshot1.jpg)
 ---
 
