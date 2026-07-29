@@ -15,7 +15,7 @@
 | | |
 |---|---|
 | **Name** | Richmond Usoh |
-| **LinkedIn** | [Richmond Usoh](https://www.linkedin.com/in/richmond-usoh-16672531/)|
+| **LinkedIn** | [Richmond Usoh](https://www.linkedin.com/in/richmond-usoh-16672531/) |
 | **Location** | Lagos Nigeria |
 | **Background** | Transitioning from Radio Frequency Network planning and optimization to Cloud & Devops |
 | **Goal** | Assist more than 5000 indigenous companies transition to cloud and maintain software production seamlessly. |
@@ -58,7 +58,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 *Earn a badge each week. To unlock: remove the `<!--` and `-->` from the badge line below.*
 
-*Share your stack:* `https://github.com/YOUR-USERNAME/devops-micro-internship-pravinmishra#my-devops-stack`
+*Share your stack:* `https://github.com/richmondusoh/devops-micro-internship-pravinmishra#my-devops-stack`
 
 **Preview — what your full stack looks like:**
 
@@ -135,9 +135,9 @@ This is not a course. It is an internship-style program — real deployments, re
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ completed | https://www.linkedin.com/posts/richmond-usoh-16672531_devops-micro-internship-dmi-by-pravin-activity-7385842199235637250-DQ-m?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY | https://medium.com/@richmondusoh92/internet-and-networking-building-the-foundation-for-my-devops-journey-12019cd6e5ff?sharedUserId=richmondusoh92 |
 | 01 | Success Mindset | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/richmond-usoh-16672531_my-version-20-future-self-by-2030-i-had-activity-7417354842697981952-IPka?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY | https://medium.com/@richmondusoh92/week-01-success-mindset-developing-the-right-mindset-for-a-career-in-devops-c58a4fffd71e |
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ completed | https://www.linkedin.com/posts/richmond-usoh-16672531_dmibypravinmishra-agenticai-claudecode-ugcPost-7482066304967929856-Nky4/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY | https://medium.com/@richmondusoh92/week-2-reflection-my-journey-into-agentic-ai-with-claude-code-390bc618b3ee?sharedUserId=richmondusoh92 |
-| 03 | Linux for DevOps | 🔄 In progress | 🔄 In progress |https://www.linkedin.com/posts/richmond-usoh-16672531_devops-aws-nginx-ugcPost-7485003920491151360-9uOm/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY | https://medium.com/@richmondusoh92/how-bash-scripting-enhances-devops-workflows-dc47e26b4c55?sharedUserId=richmondusoh92 |
+| 03 | Linux for DevOps | 🔄 In progress | 🔄 In progress | https://www.linkedin.com/posts/richmond-usoh-16672531_devops-aws-nginx-ugcPost-7485003920491151360-9uOm/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY | https://medium.com/@richmondusoh92/how-bash-scripting-enhances-devops-workflows-dc47e26b4c55?sharedUserId=richmondusoh92 |
 | 04 | Bash Scripting | 🔄 In progress | 🔄 In progress | https://www.linkedin.com/posts/richmond-usoh-16672531_devops-aws-nginx-ugcPost-7485003920491151360-9uOm/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY | https://medium.com/@richmondusoh92/the-efficiency-of-bash-scripting-in-devops-workflow-311e7f43c548?sharedUserId=richmondusoh92 |
-| 05 | Git & GitHub | 🔄 In progress | 🔄 In progress | https://www.linkedin.com/posts/richmond-usoh-16672531_devops-aws-ec2-ugcPost-7486142893066366976-mm3t/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY | — |
+| 05 | Git & GitHub | 🔄 In progress | 🔄 In progress | https://www.linkedin.com/posts/richmond-usoh-16672531_devops-aws-ec2-ugcPost-7486142893066366976-mm3t/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY | https://medium.com/@richmondusoh92/why-every-devops-engineer-should-use-github-dependabot-5773dcfb66df?sharedUserId=richmondusoh92 |
 | 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
