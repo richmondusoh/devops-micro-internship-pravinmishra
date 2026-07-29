@@ -128,13 +128,13 @@ Paste your Pull Request URL here:
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/richmond-usoh-16672531_devops-git-github-activity-7488300851741061121-A6FA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAaxKJ4B4307Oy0LMj-MkWnZs1lOOjPvqqY`
 
 ---
 
 #### Screenshot — LinkedIn post showing your successfully created Pull Request
 
-Add your screenshot here.
+![alt text](121_linkedln-1.jpg).
 
 ---
 
@@ -151,7 +151,7 @@ Add your screenshot here.
 
 Paste your fork URL here:
 
-`Add your URL here`
+`https://github.com/richmondusoh/devops-micro-internship-interviews.git`
 
 ---
 
