@@ -20,7 +20,7 @@ Create a `terraform-aws-vm` project directory for the AWS Terraform configuratio
 
 #### Screenshot 1 — File Explorer, VS Code, or terminal showing the `terraform-aws-vm` project directory
 
-Add your screenshot here.
+![alt text](assignment2_screenshot1.jpg).
 
 ---
 
@@ -34,7 +34,7 @@ Define the AWS provider, a VPC (10.0.0.0/16) with a public subnet (10.0.1.0/24) 
 
 #### Screenshot 2 (optional) — `main.tf` showing the VPC and EC2 resource blocks
 
-Add your screenshot here.
+![alt text](assignment2_screenshot2.jpg).
 
 ---
 
@@ -48,7 +48,7 @@ Run `terraform init` and confirm the working directory initializes successfully.
 
 #### Screenshot 3 — Terminal showing successful `terraform init` output
 
-Add your screenshot here.
+![alt text](assignment2_screenshot3.jpg).
 
 ---
 
@@ -62,13 +62,13 @@ Review `terraform plan`, run `terraform apply`, and record the EC2 instance's pu
 
 #### Screenshot 4 — Terraform apply output showing successful completion
 
-Add your screenshot here.
+![alt text](assignment2_screenshot4.jpg).
 
 ---
 
 #### Screenshot 5 — Terraform output showing the EC2 public IP
 
-Add your screenshot here.
+![alt text](assignment2_screenshot5.jpg).
 
 ---
 
@@ -82,13 +82,13 @@ Confirm the EC2 instance is running in the public subnet with a public IP, insta
 
 #### Screenshot 6 — EC2 instance running in the AWS Console, with the subnet and public IP visible
 
-Add your screenshot here.
+![alt text](assignment2_screenshot6.jpg).
 
 ---
 
 #### Screenshot 7 — Browser showing the Nginx page through the EC2 public IP, or terminal showing a successful SSH connection
 
-Add your screenshot here.
+![alt text](assignment2_screenshot7.jpg).
 
 ---
 
@@ -102,7 +102,7 @@ Run `terraform destroy` to remove the Terraform-managed AWS resources after test
 
 #### Screenshot 8 — Terminal showing successful `terraform destroy` completion
 
-Add your screenshot here.
+![alt text](assignment2_screenshot8.jpg).
 
 ---
 
@@ -110,7 +110,8 @@ Add your screenshot here.
 
 Write a short paragraph about any challenges you faced and how you solved them.
 
-Write your answer here.
+After deploying the infrastructure with terraform, i could not login to the instance and install nginx due to missing SSH KEY/PEM Key, i then used chatgpt to debug the error and i learnt the path to the pem key was incorrect, i corrected the path and the issue was resolved.
+
 
 ---
 
