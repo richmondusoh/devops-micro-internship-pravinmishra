@@ -30,13 +30,13 @@ Sign in to the Azure Portal, locate key services (Resource Groups, Virtual Machi
 
 #### Screenshot 1 — Azure Portal homepage after successful login
 
-Add your screenshot here.
+![alt text](task2_screenshot1.jpg).
 
 ---
 
 #### Screenshot 2 — "Subscriptions" section showing the "Free Trial" subscription
 
-Add your screenshot here.
+![alt text](task2_screenshot2.jpg).
 
 ---
 
@@ -44,7 +44,7 @@ Add your screenshot here.
 
 Write a three-to-four-line paragraph explaining which Azure services you plan to explore first and why.
 
-Write your answer here.
+I Plan to first explore Azure Virtual Machines (VMs) to understand how cloud-based servers are created and managed. Azure Storage is useful for learning how cloud services store files, data, and backups. Azure Virtual Network (VNet) helps beginners understand networking, subnets, IP addresses, and security. Finally, Azure App Service provides an easy way to deploy web applications without managing the underlying server infrastructure.
 
 ---
 

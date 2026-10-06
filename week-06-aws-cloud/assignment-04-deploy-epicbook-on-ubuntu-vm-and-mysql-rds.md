@@ -204,7 +204,7 @@ Verify the frontend loads publicly, the backend responds through Nginx, and EC2 
 
 #### Screenshot 21 — Terminal showing a successful database connectivity test (`SELECT 1;` or similar)
 
-Add your screenshot here.
+![alt text](assignment4_screenshot21.jpg).
 
 ---
 
