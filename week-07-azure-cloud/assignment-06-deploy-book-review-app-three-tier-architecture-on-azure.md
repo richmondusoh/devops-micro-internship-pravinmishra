@@ -20,13 +20,16 @@ Create an architecture diagram and implementation plan identifying the presentat
 
 #### Screenshot 1 — Architecture diagram showing the public entry point, three tiers, network boundaries, and traffic flow
 
-Add your screenshot here.
+![alt text](assignment6_task1_screenshot1.jpg).
 
 ---
 
 #### Screenshot 2 — Written architecture assumptions and selected Azure services
 
-Add your screenshot here.
+The package.json file describes what the Application Tier requires in order to run, and reviewing it provides useful information before the App VM is configured later in the deployment.
+Looking through the file, three dependencies stand out as the most important ones for this backend: Express, Sequelize, and mysql2. Each of these plays a different role, and understanding them individually makes it much easier to understand what the backend application actually does.
+Node.js is the underlying technology that allows JavaScript, normally a language used to build websites in a browser, to instead run on a server. Without Node.js, none of the other tools listed below would be able to run at all, since they are all built to work on top of it
+.
 
 ---
 
@@ -40,19 +43,19 @@ Create a dedicated Resource Group and VNet with separate subnets for the web, ap
 
 #### Screenshot 3 — Resource Group overview showing the assignment resources
 
-Add your screenshot here.
+![alt text](assignment6_task2_screenshot3.jpg).
 
 ---
 
 #### Screenshot 4 — VNet overview showing the address space and all required subnets
 
-Add your screenshot here.
+![alt text](assignment6_task2_screenshot4.jpg).
 
 ---
 
 #### Screenshot 5 — Route-table or Private DNS evidence where applicable
 
-Add your screenshot here.
+![alt text](assignment6_task2_screenshot5.jpg).
 
 ---
 
@@ -66,7 +69,7 @@ Apply least-privilege NSG rules so traffic flows Internet → public entry point
 
 #### Screenshot 6 — NSG rules proving least-privilege access between the tiers
 
-Add your screenshot here.
+![alt text](assignment6_task3_screenshot6.jpg).
 
 ---
 
